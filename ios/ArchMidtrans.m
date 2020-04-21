@@ -1,5 +1,5 @@
 
-#import "MidtransModule.h"
+#import "ArchMidtrans.h"
 #import <React/RCTLog.h>
 
 @implementation MidtransModule
