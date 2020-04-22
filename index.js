@@ -3,16 +3,22 @@ import { NativeModules } from 'react-native';
 const { ArchMidtrans } = NativeModules;
 
 export default {
-  checkOut: function (optionConect, transRequest, itemDetails, creditCardOptions, mapUserDetail,
-    optionColorTheme, optionFont, resultCheckOut) {
-    ArchMidtrans.checkOut(
-    optionConect,
-    transRequest,
-    itemDetails,
-    creditCardOptions,
-    mapUserDetail,
-    optionColorTheme,
-    optionFont,
-    resultCheckOut);
+  checkOut: function (optionConect: ?object,
+                      transRequest: ?object,
+                      itemDetails: ?object,
+                      creditCardOptions: ?object,
+                      mapUserDetail: ?object,
+                      optionColorTheme: ?object,
+                      optionFont: ?object,
+                      resultCheckOut) {
+      ArchMidtrans.checkOut(
+          optionConect,
+          transRequest,
+          itemDetails,
+          creditCardOptions,
+          mapUserDetail,
+          optionColorTheme,
+          optionFont,
+          resultCheckOut);
   },
 };

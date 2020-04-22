@@ -1,76 +1,21 @@
 {
-  "_from": "react-native-arch-midtrans",
-  "_id": "react-native-arch-midtrans@1.0.0",
-  "_inBundle": false,
-  "_integrity": "sha512-x7llbT/Jz6DracpDqutJIltXCa1OCwetqwRZqY7LU10/udqUjps6Thc7y4ZaXJYGPfpWz3hzcu+HJLjiJf2DbA==",
-  "_location": "/react-native-arch-midtrans",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "react-native-arch-midtrans",
-    "name": "react-native-arch-midtrans",
-    "escapedName": "react-native-arch-midtrans",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/react-native-arch-midtrans/-/react-native-arch-midtrans-1.0.0.tgz",
-  "_shasum": "baad67e544e3f2c637a18247c8b04ce592c18da1",
-  "_spec": "react-native-arch-midtrans",
-  "_where": "/Users/arch/Teknotera/RN59/kuul-mobile",
-  "author": {
-    "name": "Yashdiq Lubis",
-    "email": "yashdiq@gmail.com"
-  },
-  "bugs": {
-    "url": "https://github.com/yashdiq/react-native-arch-midtrans/issues"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
-  "description": "React Native Module for Midtrans",
-  "devDependencies": {
-    "react": "^16.8.3",
-    "react-native": "^0.59.10"
-  },
+  "name": "react-native-arch-midtrans",
+  "title": "React Native Arch Midtrans",
+  "description": "midtrans payment",
+  "main": "index.js",
   "homepage": "https://github.com/yashdiq/react-native-arch-midtrans#readme",
   "keywords": [
     "react-native",
-    "react-component",
-    "react-native-component",
-    "react",
-    "mobile",
-    "android",
     "midtrans",
-    "sdk",
     "payment",
     "gateway",
-    "credit-card",
-    "debit",
-    "bank"
+    "payment gateway"
   ],
+  "author": "Yashdiq Lubis",
   "license": "MIT",
-  "licenseFilename": "LICENSE",
-  "main": "index.js",
-  "name": "react-native-arch-midtrans",
   "peerDependencies": {
-    "react": "^16.8.1",
-    "react-native": ">=0.59.0-rc.0 <1.0.x"
+    "react-native": "0.57.7",
+    "react-native-windows": "0.57.0-rc.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yashdiq/react-native-arch-midtrans.git",
-    "baseUrl": "https://github.com/yashdiq/react-native-arch-midtrans"
-  },
-  "scripts": {
-    "lint": "eslint .",
-    "start": "react-native start",
-    "test": "jest"
-  },
-  "title": "React Native Arch Midtrans",
-  "version": "1.0.6"
+  "version": "1.1.3"
 }
