@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <MidtransKit/MidtransKit.h>
 
-@interface MidtransModule : UIViewController <RCTBridgeModule, MidtransUIPaymentViewControllerDelegate>
+@interface ArchMidtrans : UIViewController <RCTBridgeModule, MidtransUIPaymentViewControllerDelegate>
 
 @end
   

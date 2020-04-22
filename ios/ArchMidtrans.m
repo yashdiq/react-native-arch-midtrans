@@ -2,7 +2,7 @@
 #import "ArchMidtrans.h"
 #import <React/RCTLog.h>
 
-@implementation MidtransModule
+@implementation ArchMidtrans
 
 - (dispatch_queue_t)methodQueue
 {
