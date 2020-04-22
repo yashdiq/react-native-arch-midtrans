@@ -1,3 +1,1 @@
-declare module "react-native-arch-midtrans" {
-  
-}
+declare module "react-native-arch-midtrans"
