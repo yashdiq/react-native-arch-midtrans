@@ -50,7 +50,7 @@ RCT_EXPORT_METHOD(checkOut:(NSDictionary*) optionConect
 
     MidtransCustomerDetails *customerDetail =
     [[MidtransCustomerDetails alloc] initWithFirstName:[mapUserDetail valueForKey:@"fullName"]
-                                              lastName:@"lastname"
+                                              lastName:@""
                                                  email:[mapUserDetail valueForKey:@"email"]
                                                  phone:[mapUserDetail valueForKey:@"phoneNumber"]
                                        shippingAddress:shippingAddress
